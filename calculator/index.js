@@ -12,4 +12,24 @@ document.getElementById("num2-el").textContent = num2
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
 
+let sumEl = document.getElementById("sum-el")
 
+add = () => {
+    let result = num1 + num2
+    sumEl.textContent = "Sum " + result
+    }
+
+subtract = () => {
+    let result = num1 - num2
+    sumEl.textContent = "Sum " + result
+}
+
+divide = () => {
+    let result = num1 / num2
+    sumEl.textContent = "Sum " + result
+}
+
+multiply = () => {
+    let result = num1 * num2
+    sumEl.textContent = "Sum " + result
+}
