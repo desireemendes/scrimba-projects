@@ -1,10 +1,23 @@
 body {
     margin: 0;
+    text-align: center;
     background-color: #121639;
 }
 
-h3 {
-   color: white;
+.home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
 }
 
 .container {
@@ -12,12 +25,9 @@ h3 {
     justify-content: space-around;
 }
 
- /* #home-score {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px; 
-    color: white;
-    display: block;
-    margin-left: auto;
-}  */
+button {
+    background: none;
+}
+
+
+
