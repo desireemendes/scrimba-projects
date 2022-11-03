@@ -12,6 +12,11 @@ body {
     margin: 20px;
 }
 
+h3 {
+    background: none;
+    color: white;
+}
+
 .guest-score {
     background: #0a0001;
     font-size: 90px;
