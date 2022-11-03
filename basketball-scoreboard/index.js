@@ -1,9 +1,11 @@
-// home score
-//add +1, +2, +3
-//grab home-score element
+let homeScoreBtnOne = document.getElementById("add-1")
+let homeStoreEl = document.getElementById("home-score")
+let homeScore = 0
 
 add1 = () => {
-    console.log("button clicked")
+    // console.log("button clicked")
+    homeScore += 1
+    homeStoreEl.textContent = homeScore
 }
 
 add2 = () => {
