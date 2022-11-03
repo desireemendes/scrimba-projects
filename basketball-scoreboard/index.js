@@ -9,9 +9,13 @@ add1 = () => {
 }
 
 add2 = () => {
+    homeScore += 2
+    homeStoreEl.textContent = homeScore
 }
 
 add3 = () => {
+    homeScore += 3
+    homeStoreEl.textContent = homeScore
 }
 
 //guest score
