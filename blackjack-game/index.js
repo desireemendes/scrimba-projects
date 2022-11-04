@@ -7,13 +7,14 @@ let message = ""
 
 
 let messageEl = document.getElementById("message-el")
-messageEl.textContent = message;
-
 let sumEl = document.getElementById("sum-el")
+let cardsEl = document.getElementById("cards-el")
 
 startGame = () => {
 
-    sum.textContent = "sum: " + sum;
+    sumEl.textContent = `Sum: ${sum}`
+    cardsEl.textContent = `Cards: ${firstCard} ${secondCard}`
+    console.log(cardsEl);
 
 if (sum <= 20) {
     message = "Do you want to draw a new card? 🙂";
@@ -24,5 +25,9 @@ if (sum <= 20) {
     message = "You're out of the game! 😭";
     isAlive = false;
 }
+messageEl.textContent = message;
 }
 
+newCard = () => {
+    console.log("New card drawn");
+}
