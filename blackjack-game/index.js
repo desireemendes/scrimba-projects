@@ -5,6 +5,10 @@ let hasBlackJack = false;
 let isAlive = true;
 let message = ""
 
+startGame = () => {
+   console.log("Game started")
+    }
+
 if (sum <= 20) {
     message = "Do you want to draw a new card? 🙂";
 } else if (sum === 21) {
