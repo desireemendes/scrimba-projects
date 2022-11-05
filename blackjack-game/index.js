@@ -1,5 +1,6 @@
-let firstCard = 5;
-let secondCard = 10;
+let firstCard = Math.floor(Math.random() * 21);
+let secondCard = Math.floor(Math.random() * 21);
+let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
@@ -12,7 +13,7 @@ let cardsEl = document.getElementById("cards-el")
 
 renderGame = () => {
 
-    cardsEl.textContent = `Cards: ${firstCard} ${secondCard}`
+    cardsEl.textContent = `Cards: ${cards[0]}, ${cards[1]}`
     sumEl.textContent = `Sum: ${sum}`
     console.log(cardsEl);
 
