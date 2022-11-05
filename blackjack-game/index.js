@@ -34,8 +34,8 @@ startGame = () => {
 }
 
 newCard = () => {
-    console.log("New card drawn");
     let card = 4;
     sum += card;
+    cards.push(card);
     renderGame();
 }
