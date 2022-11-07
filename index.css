@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: #273549;
+}
+
+#generate {
+    color: white;
+}
+
+#random-pass {
+    color: #10B981;
+}
+
+p {
+    color: white;
+}
+
+button {
+    background-color: #10B981;
+    color: white; 
+    border-radius: 10px 10px;
+}
+
